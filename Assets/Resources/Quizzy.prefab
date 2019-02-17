@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1893343115579920}
+  m_IsPrefabAsset: 1
+--- !u!1 &1893343115579920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4472767717115584}
+  - component: {fileID: 114770224324666080}
+  - component: {fileID: 114604359991384686}
+  - component: {fileID: 114328678128243456}
+  - component: {fileID: 114828084147693018}
+  - component: {fileID: 114536368500222508}
+  - component: {fileID: 114102164385191030}
+  - component: {fileID: 114369001120459216}
+  - component: {fileID: 114690853737224752}
+  - component: {fileID: 114302032719218904}
+  - component: {fileID: 114338954566155854}
+  - component: {fileID: 114006664112219494}
+  - component: {fileID: 114101960482991880}
+  - component: {fileID: 114927780226499960}
+  - component: {fileID: 114459585037823794}
+  - component: {fileID: 114457024412337122}
+  - component: {fileID: 82369416103858864}
+  m_Layer: 0
+  m_Name: Quizzy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4472767717115584
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82369416103858864
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 93da37b8b28164fad8f9eaaf59e45b73, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114006664112219494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fbb3f9ad13443f69293cd2fff0c3df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114101960482991880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8932e70d453ea4ac8b6a3b8109dede72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goImageTarget: {fileID: 0}
+  duration: 0
+  durationLost: 0
+  cntOff: 0
+--- !u!114 &114102164385191030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716121abd5fdb4e7aa2f6baf1ec6b6f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+  goWrench: {fileID: 0}
+  goBolt: {fileID: 0}
+  clipTurn: {fileID: 8300000, guid: 93da37b8b28164fad8f9eaaf59e45b73, type: 3}
+--- !u!114 &114302032719218904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f142236e847d42728c648b8438f6561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0.1
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+  goButton: {fileID: 0}
+--- !u!114 &114328678128243456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452dd29776fe345ac82f29a6a2129806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+--- !u!114 &114338954566155854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b7f7186ae4d43fbb11aa9ac8ce9335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0.1
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+  goTarget: {fileID: 0}
+--- !u!114 &114369001120459216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549bc9cc786d9446ba332c5f7afd7b5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0.1
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+  goTimerHand: {fileID: 0}
+--- !u!114 &114457024412337122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31136e26e58ad4110a02cf5077902f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  clipYes: {fileID: 8300000, guid: 3cd08063872274746ab4c1392e3ebca7, type: 3}
+  clipNo: {fileID: 8300000, guid: 6570a7cd71c3f408a99dd9e881edf060, type: 3}
+  clipAcquired: {fileID: 8300000, guid: 3cd08063872274746ab4c1392e3ebca7, type: 3}
+  clipLost: {fileID: 8300000, guid: 6570a7cd71c3f408a99dd9e881edf060, type: 3}
+  clipMusic: {fileID: 8300000, guid: ae3648a255c164e5194288d74c7a44ab, type: 3}
+  clipTurn: {fileID: 8300000, guid: 93da37b8b28164fad8f9eaaf59e45b73, type: 3}
+  clipDone: {fileID: 8300000, guid: 3cd08063872274746ab4c1392e3ebca7, type: 3}
+--- !u!114 &114459585037823794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31309b932ecde4eedab86fd494af5eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goPopUpScore: {fileID: 0}
+  goPopUp: {fileID: 0}
+  textLog: {fileID: 0}
+  goLoading: {fileID: 0}
+  goAngle: {fileID: 0}
+  angGoAngle: 0
+--- !u!114 &114536368500222508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db5ddf30b8da4df9b2701275151aae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+  goWrench: {fileID: 0}
+  goBolt: {fileID: 0}
+--- !u!114 &114604359991384686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f2482fc5c5f458d80d35d53ae57d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstname: Amre
+  lastname: Amer
+  email: me@amre-amer.com
+--- !u!114 &114690853737224752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c005a16cda624597a919db0e3d4234a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goWorld: {fileID: 0}
+  goImageMarker: {fileID: 0}
+  ynActive: 0
+  distNear: 0.1
+  distNearFound: 0
+  gos: []
+  quizzyMgr: {fileID: 0}
+  credentialsMgr: {fileID: 0}
+  postMgr: {fileID: 0}
+  trackMgr: {fileID: 0}
+  assetMgr: {fileID: 0}
+  messageMgr: {fileID: 0}
+  udpMgr: {fileID: 0}
+  goHandle: {fileID: 0}
+  cam: {fileID: 0}
+  audioMgr: {fileID: 0}
+--- !u!114 &114770224324666080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc94925d4173844df8066e0109db400f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goButtonTestFollow: {fileID: 0}
+  goButtonTestTap: {fileID: 0}
+  goButtonTestAsset: {fileID: 0}
+  goButtonTestSound: {fileID: 0}
+  goImageTarget: {fileID: 0}
+  goButtons: {fileID: 0}
+  goButtonReset: {fileID: 0}
+  buttonMonoStereo: {fileID: 0}
+  ynStereo: 0
+  clipReset: {fileID: 8300000, guid: ae3648a255c164e5194288d74c7a44ab, type: 3}
+--- !u!114 &114828084147693018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411f64f1232204604aba0684ebd58176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goThis: {fileID: 0}
+  goOther: {fileID: 0}
+  ynActive: 0
+--- !u!114 &114927780226499960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1893343115579920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f89ed9c668147038d424856f7ce7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

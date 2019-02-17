@@ -1,0 +1,1 @@
+<html> <head> <title>PHP Example</title> <body> <?php echo "Welcome to PHP programming language."; ?> </body> </html>
